@@ -10,10 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --pink:#E83CAC; --rasp:#C71E8E; --amber:#F4B340; --gold:#FBC34E; --caramel:#B8682A;
+  --pink:#E73CAC; --rasp:#C71E8E; --amber:#F4B340; --gold:#FBC34E; --caramel:#B8682A;
   --honey:#FBE6C2; --cream:#FFF8EE; --sand:#FBEFD9; --ink:#2A1A18; --muted:#8A7561; --line:#F0E1CC;
-  --sun:linear-gradient(135deg,#E83CAC 0%,#F26E8C 45%,#FBC34E 100%);
-  --sun-soft:linear-gradient(135deg,#FCE3EE 0%,#FCEFD9 100%);
+  --sun:#E73CAC;
+  --sun-soft:#FCE7F0;
   --shadow:0 18px 50px -22px rgba(184,104,42,.45);
   --radius:22px;
 }
@@ -42,8 +42,8 @@ img{display:block;max-width:100%}
 .btn-ghost:hover{border-color:var(--rasp);color:var(--rasp);transform:translateY(-2px)}
 .btn-lg{padding:18px 36px;font-size:1.05rem}
 
-.announce{background:var(--ink);color:#fff;text-align:center;font-size:.82rem;font-weight:600;padding:9px 14px}
-.announce b{color:var(--gold)}
+.announce{background:var(--pink);color:#fff;text-align:center;font-size:.82rem;font-weight:600;padding:9px 14px}
+.announce b{color:#fff}
 
 header{position:sticky;top:0;z-index:60;background:rgba(255,248,238,.82);
   backdrop-filter:saturate(160%) blur(14px);border-bottom:1px solid var(--line)}
